@@ -1,5 +1,5 @@
-<h1 align=center>Bookworm Light Nextjs</h1> 
-<p align=center>Bookworm Light is a minimal multi-author free nextjs blog template. This highly customizable theme is ideal for creating any type of blog website, including food, recipes, beauty, lifestyle, photography, travel, health, fitness, and more.</p>
+<h1 align=center>Simple Gallery Nextjs</h1> 
+<p align=center>Simple Gallery is a minimal multi-author free nextjs blog template. This highly customizable theme is ideal for creating any type of blog website, including food, recipes, beauty, lifestyle, photography, travel, health, fitness, and more.</p>
 <h2 align="center"> <a target="_blank" href="https://bookworm-light-nextjs.vercel.app/" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fbookworm-light-nextjs.vercel.app%2F&form_factor=desktop">Page Speed (100%)🚀</a>
 </h2>
 
