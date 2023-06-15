@@ -23,11 +23,25 @@ const Document = () => {
           media="(prefers-color-scheme: dark)"
           content="#000"
         />
+        {/* Netlify Widget */}
+        <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
       </Head>
       <body>
         <Main />
         <TwSizeIndicator />
         <NextScript />
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            if (window.netlifyIdentity) {
+              window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                  window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                  });
+                }
+              });
+            }
+        `}}/>
       </body>
     </Html>
   );
