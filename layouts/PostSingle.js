@@ -75,6 +75,10 @@ const PostSingle = ({ post, posts, authors, slug }) => {
             <div className="content mb-16 text-left">
               <MDXRemote {...mdxContent} components={shortcodes} />
             </div>
+            <video width="320" height="240" controls>
+              <source src={frontmatter.file} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             <div className="flex flex-wrap items-center justify-between">
               <ul className="mr-4 mb-4 space-x-3">
                 {tags.map((tag, i) => (
