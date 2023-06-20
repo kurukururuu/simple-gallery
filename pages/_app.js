@@ -1,4 +1,4 @@
-import config from "@config/config.json";
+import config from "@config/config.js";
 import theme from "@config/theme.json";
 import { JsonContext } from "context/state";
 import Head from "next/head";

@@ -1,4 +1,4 @@
-import config from "@config/config.json";
+import config from "@config/config.js";
 import { plainify } from "@lib/utils/textConverter";
 import Footer from "@partials/Footer";
 import Header from "@partials/Header";
@@ -40,7 +40,7 @@ const Base = ({
           content={plainify(description ? description : meta_description)}
         />
 
-        {/* author from config.json */}
+        {/* author from config.mjs */}
         <meta name="author" content={meta_author} />
 
         {/* og-title */}

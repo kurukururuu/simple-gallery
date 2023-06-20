@@ -1,4 +1,4 @@
-import config from "@config/config.json";
+import config from "@config/config.js";
 import NotFound from "@layouts/404";
 import About from "@layouts/About";
 import Base from "@layouts/Baseof";

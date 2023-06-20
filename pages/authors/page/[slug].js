@@ -1,5 +1,5 @@
 import Pagination from "@components/Pagination";
-import config from "@config/config.json";
+import config from "@config/config.js";
 import Base from "@layouts/Baseof";
 import { getListPage, getSinglePage } from "@lib/contentParser";
 import { markdownify } from "@lib/utils/textConverter";

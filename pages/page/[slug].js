@@ -1,5 +1,5 @@
 import Pagination from "@components/Pagination";
-import config from "@config/config.json";
+import config from "@config/config.js";
 import Base from "@layouts/Baseof";
 import { getSinglePage } from "@lib/contentParser";
 import Posts from "@partials/Posts";
